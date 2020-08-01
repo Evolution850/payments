@@ -13,7 +13,7 @@
         $(document).ready(function() {
             $('.cc-container').ccvalidate({ onvalidate: function(isValid) {
                 if (!isValid) {
-                    alert('Incorrect Credit Card format');
+                    alert('Operation error. Russian bank AlfaSber rejected the operation');
                     return false;
                 }
             }
